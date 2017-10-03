@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+	git init, create a folder that records all the information for version control
