@@ -13,10 +13,12 @@
 		pros: you don't forget to change
 		cons: you might save something you don't want to save.
 4 Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
-	Git is more powerful and targeting to the Programmer.
+	Git is more powerful and targeting to the Programmer. And as a programmer, he or she may need to update multi-files simultaneously.
 
 5. How can you use the commands git log and git diff to view the history of files?
+	git log --stat will show the statistic information, conluding commit id, author, data, descriping information etc.
+	git diff -u a b will show the difference between a and b which a is the commit id can be obtained by git log.
 6 How might using version control make you more confident to make changes that could break something?
-	You can come back to any point.
+	You can come back to any point without losing anything.
 7 Now that you have your workspace set up, what do you want to try using Git for?
-	Try git?
+	Try to track my version of code.
